@@ -50,11 +50,12 @@
 
        <javac destdir="${run.classpath}" srcdir="${run.srcpath}"
 
-           classpathref="compile.path"/>
+           classpathref="compile.path" encoding="ISO-8859-1"/>
 
        <javac destdir="${run.classpath}" srcdir="${test.srcpath}"
 
-           classpathref="compile.path"/>
+           classpathref="compile.path" encoding="ISO-8859-1"/>
+        
 
     </target>
 
